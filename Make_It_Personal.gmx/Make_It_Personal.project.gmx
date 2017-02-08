@@ -3,23 +3,55 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <NewExtensions>
+    <extension index="0">extensions\Basic Snake Engine</extension>
+    <extension index="1">extensions\Space Invaders start up</extension>
+  </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_paddle</sprite>
     <sprite>sprites\spr_enemypaddle</sprite>
     <sprite>sprites\spr_ball</sprite>
+    <sprite>sprites\sp_snake_head</sprite>
+    <sprite>sprites\sp_body</sprite>
+    <sprite>sprites\sp_food</sprite>
+    <sprite>sprites\sp_special</sprite>
+    <sprite>sprites\sp_Font</sprite>
+    <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\spr_shot</sprite>
+    <sprite>sprites\sprite4</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bk_black</background>
+  </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\SnakeFont</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_playerpaddle</object>
     <object>objects\obj_enemypaddle</object>
     <object>objects\obj_ball</object>
     <object>objects\effect_shake</object>
+    <object>objects\obj_tail</object>
+    <object>objects\obj_head</object>
+    <object>objects\obj_food</object>
+    <object>objects\obj_special</object>
+    <object>objects\obj_controll</object>
+    <object>objects\obj_changeroom</object>
+    <object>objects\obj_control</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_shot</object>
+    <object>objects\obj_set_up_game</object>
+    <object>objects\obj_gameover</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\pong</room>
+    <room>rooms\snake</room>
+    <room>rooms\init_room</room>
+    <room>rooms\room_main</room>
+    <room>rooms\room_GO</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
