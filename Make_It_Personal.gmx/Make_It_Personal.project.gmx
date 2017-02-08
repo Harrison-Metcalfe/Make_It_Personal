@@ -20,6 +20,7 @@
     <sprite>sprites\sprite3</sprite>
     <sprite>sprites\spr_shot</sprite>
     <sprite>sprites\sprite4</sprite>
+    <sprite>sprites\spr_court</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bk_black</background>
@@ -33,8 +34,9 @@
     <object>objects\obj_enemypaddle</object>
     <object>objects\obj_ball</object>
     <object>objects\effect_shake</object>
-    <object>objects\obj_tail</object>
+    <object>objects\effect_Lshake</object>
     <object>objects\obj_head</object>
+    <object>objects\obj_tail</object>
     <object>objects\obj_food</object>
     <object>objects\obj_special</object>
     <object>objects\obj_controll</object>
@@ -45,6 +47,7 @@
     <object>objects\obj_shot</object>
     <object>objects\obj_set_up_game</object>
     <object>objects\obj_gameover</object>
+    <object>objects\obj_court</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\pong</room>
