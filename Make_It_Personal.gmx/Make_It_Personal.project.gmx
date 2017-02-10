@@ -21,11 +21,45 @@
     <sprite>sprites\spr_shot</sprite>
     <sprite>sprites\sprite4</sprite>
     <sprite>sprites\spr_court</sprite>
+    <sprite>sprites\dot</sprite>
+    <sprite>sprites\dying</sprite>
+    <sprite>sprites\empty</sprite>
+    <sprite>sprites\eyes</sprite>
+    <sprite>sprites\ghost</sprite>
+    <sprite>sprites\ghost2</sprite>
+    <sprite>sprites\nowall</sprite>
+    <sprite>sprites\pac</sprite>
+    <sprite>sprites\uniwall</sprite>
+    <sprite>sprites\wall1</sprite>
+    <sprite>sprites\wall2</sprite>
+    <sprite>sprites\wall2solid</sprite>
+    <sprite>sprites\wall3</sprite>
+    <sprite>sprites\wall3solid</sprite>
+    <sprite>sprites\wall3solidL</sprite>
+    <sprite>sprites\wall3solidR</sprite>
+    <sprite>sprites\wall4</sprite>
+    <sprite>sprites\wallStraight</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bk_black</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\checkPacCol.gml</script>
+    <script>scripts\checkWall.gml</script>
+    <script>scripts\connectWalls.gml</script>
+    <script>scripts\drawGhost.gml</script>
+    <script>scripts\ghostAI_ambush.gml</script>
+    <script>scripts\ghostAI_chase.gml</script>
+    <script>scripts\ghostAI_random.gml</script>
+    <script>scripts\ghostAI_randomIntent.gml</script>
+    <script>scripts\ghostAIcheck.gml</script>
+    <script>scripts\makeWallFour.gml</script>
+    <script>scripts\makeWallOne.gml</script>
+    <script>scripts\makeWallThree.gml</script>
+    <script>scripts\makeWallTwo.gml</script>
+    <script>scripts\singleKey.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\SnakeFont</font>
   </fonts>
@@ -48,12 +82,22 @@
     <object>objects\obj_set_up_game</object>
     <object>objects\obj_gameover</object>
     <object>objects\obj_court</object>
+    <object>objects\blinky</object>
+    <object>objects\god</object>
+    <object>objects\level_carver</object>
+    <object>objects\obj_dot</object>
+    <object>objects\pacman</object>
+    <object>objects\path_carver</object>
+    <object>objects\pinky</object>
+    <object>objects\wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\pong</room>
     <room>rooms\snake</room>
     <room>rooms\init_room</room>
     <room>rooms\room_main</room>
+    <room>rooms\room1</room>
+    <room>rooms\room2</room>
     <room>rooms\room_GO</room>
   </rooms>
   <help>
