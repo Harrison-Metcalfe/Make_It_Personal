@@ -546,7 +546,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="blinky">
+    <event eventtype="4" ename="pinky">
       <action>
         <libid>1</libid>
         <id>612</id>
@@ -736,7 +736,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_playerpaddle">
+    <event eventtype="4" ename="blinky">
       <action>
         <libid>1</libid>
         <id>612</id>

@@ -25,8 +25,8 @@
     <sprite>sprites\dying</sprite>
     <sprite>sprites\empty</sprite>
     <sprite>sprites\eyes</sprite>
-    <sprite>sprites\ghost</sprite>
     <sprite>sprites\ghost2</sprite>
+    <sprite>sprites\ghost</sprite>
     <sprite>sprites\nowall</sprite>
     <sprite>sprites\pac</sprite>
     <sprite>sprites\uniwall</sprite>

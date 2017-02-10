@@ -8,7 +8,7 @@
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
-  <colour>0</colour>
+  <colour>32768</colour>
   <showcolour>-1</showcolour>
   <code>random_set_seed(current_hour*3600+current_minute*60+current_second);</code>
   <enableViews>0</enableViews>
