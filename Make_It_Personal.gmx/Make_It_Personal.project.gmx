@@ -76,6 +76,7 @@
     <object>objects\obj_special</object>
     <object>objects\obj_controll</object>
     <object>objects\obj_changeroom</object>
+    <object>objects\obj_changeroomPM</object>
     <object>objects\obj_control</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_player</object>
