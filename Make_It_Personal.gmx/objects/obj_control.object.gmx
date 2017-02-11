@@ -59,7 +59,7 @@ if (!instance_exists(obj_enemy))
 //if we run out of lives restart the game
 if(global.life &lt;= 0)
 {
-    room_goto(room_GO);
+    room_goto(pong);
 }
 
 </string>
