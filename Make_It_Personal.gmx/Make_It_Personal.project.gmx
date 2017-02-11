@@ -95,15 +95,13 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\pong</room>
-    <room>rooms\room_msg1</room>
+    <room>rooms\room_msg3</room>
     <room>rooms\snake</room>
-    <room>rooms\room_msg2</room>
+    <room>rooms\room_msg1</room>
     <room>rooms\init_room</room>
     <room>rooms\room_main</room>
-    <room>rooms\room_msg3</room>
+    <room>rooms\room_msg2</room>
     <room>rooms\room1</room>
-    <room>rooms\room2</room>
-    <room>rooms\room_GO</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

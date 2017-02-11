@@ -26,8 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>///if the enemies collide with the player
-//restart room
-room_restart();
+if room_next(room) != -1
+   {
+   room_goto(room_next(room));
+   }
 </string>
           </argument>
         </arguments>

@@ -183,8 +183,10 @@ until place_empty(x,y)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-room_restart()
+            <string>if room_next(room) != -1
+   {
+   room_goto(room_next(room));
+   }
 </string>
           </argument>
         </arguments>
