@@ -39,6 +39,7 @@
     <sprite>sprites\wall3solidR</sprite>
     <sprite>sprites\wall4</sprite>
     <sprite>sprites\wallStraight</sprite>
+    <sprite>sprites\spr_blksquare</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bk_black</background>
@@ -90,12 +91,16 @@
     <object>objects\path_carver</object>
     <object>objects\pinky</object>
     <object>objects\wall</object>
+    <object>objects\obj_blksquare</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\pong</room>
+    <room>rooms\room_msg1</room>
     <room>rooms\snake</room>
+    <room>rooms\room_msg2</room>
     <room>rooms\init_room</room>
     <room>rooms\room_main</room>
+    <room>rooms\room_msg3</room>
     <room>rooms\room1</room>
     <room>rooms\room2</room>
     <room>rooms\room_GO</room>
