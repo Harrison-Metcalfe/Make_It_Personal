@@ -27,8 +27,8 @@
             <kind>1</kind>
             <string>SPD = 10;
 
-KEY_UP = ord("W");
-KEY_DOWN = ord("S");
+KEY_UP = vk_up;
+KEY_DOWN = vk_down;
 
 colour = c_blue;
 </string>

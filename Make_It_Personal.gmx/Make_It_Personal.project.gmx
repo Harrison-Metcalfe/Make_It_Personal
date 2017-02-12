@@ -76,6 +76,7 @@
     <object>objects\obj_special</object>
     <object>objects\obj_controll</object>
     <object>objects\obj_changeroom</object>
+    <object>objects\obj_changeroomMSG</object>
     <object>objects\obj_changeroomPM</object>
     <object>objects\obj_control</object>
     <object>objects\obj_enemy</object>
@@ -103,6 +104,7 @@
     <room>rooms\room_main</room>
     <room>rooms\room_msg2</room>
     <room>rooms\room1</room>
+    <room>rooms\room_msg4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
