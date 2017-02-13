@@ -7,7 +7,12 @@
     <extension index="0">extensions\Basic Snake Engine</extension>
     <extension index="1">extensions\Space Invaders start up</extension>
   </NewExtensions>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound_otherpongsfx</sound>
+    <sound>sound\sound_noisebackground</sound>
+    <sound>sound\sound_eatingsfx</sound>
+    <sound>sound\sound_pongball</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_paddle</sprite>
     <sprite>sprites\spr_enemypaddle</sprite>
@@ -94,6 +99,7 @@
     <object>objects\pinky</object>
     <object>objects\wall</object>
     <object>objects\obj_blksquare</object>
+    <object>objects\obj_distort</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\pong</room>

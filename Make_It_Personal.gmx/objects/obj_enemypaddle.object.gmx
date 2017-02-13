@@ -52,7 +52,12 @@ bGoingUp = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if((y - sprite_height/2) &lt;= 0)
+            <string>y = obj_ball.y;
+
+y = clamp(y, sprite_height/2, room_height-(sprite_height/2));
+
+/*
+if((y - sprite_height/2) &lt;= 0)
 {
     bGoingUp = false;
 }
@@ -66,8 +71,7 @@ if(bGoingUp)
     y -= SPD;
 else 
     y += SPD;
-
-y = clamp(y, sprite_height/2, room_height-(sprite_height/2));
+*/
 </string>
           </argument>
         </arguments>
