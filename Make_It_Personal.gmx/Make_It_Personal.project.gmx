@@ -8,10 +8,13 @@
     <extension index="1">extensions\Space Invaders start up</extension>
   </NewExtensions>
   <sounds name="sound">
-    <sound>sound\sound_otherpongsfx</sound>
-    <sound>sound\sound_noisebackground</sound>
+    <sound>sound\sound_bullet</sound>
+    <sound>sound\sound_ditortbackground</sound>
     <sound>sound\sound_eatingsfx</sound>
+    <sound>sound\sound_otherpongsfx</sound>
+    <sound>sound\sound_pacmandeath</sound>
     <sound>sound\sound_pongball</sound>
+    <sound>sound\sound_explosion</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_paddle</sprite>

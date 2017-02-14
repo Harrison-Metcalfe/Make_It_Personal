@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound_noisebackground</sound>
+            <sound>sound_ditortbackground</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -51,7 +51,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound_noisebackground</sound>
+            <sound>sound_ditortbackground</sound>
           </argument>
         </arguments>
       </action>
