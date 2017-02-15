@@ -120,6 +120,8 @@ if(x &lt;= 0 || x &gt;= room_width)
           <argument>
             <kind>1</kind>
             <string>hspeed *= -1;
+
+background_colour = make_colour_hsv(random(255), random(255), random(255));
 </string>
           </argument>
         </arguments>
@@ -195,6 +197,8 @@ if(x &lt;= 0 || x &gt;= room_width)
           <argument>
             <kind>1</kind>
             <string>hspeed *= -1;
+
+background_colour = make_colour_hsv(random(255), random(255), random(255));
 </string>
           </argument>
         </arguments>

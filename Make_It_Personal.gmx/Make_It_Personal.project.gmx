@@ -8,13 +8,15 @@
     <extension index="1">extensions\Space Invaders start up</extension>
   </NewExtensions>
   <sounds name="sound">
-    <sound>sound\sound_bullet</sound>
     <sound>sound\sound_ditortbackground</sound>
     <sound>sound\sound_eatingsfx</sound>
     <sound>sound\sound_otherpongsfx</sound>
-    <sound>sound\sound_pacmandeath</sound>
+    <sound>sound\sound_deathFIX</sound>
     <sound>sound\sound_pongball</sound>
+    <sound>sound\sound_pacmandeath</sound>
     <sound>sound\sound_explosion</sound>
+    <sound>sound\sound_bulletFIX</sound>
+    <sound>sound\sound_YouAreCaredFor</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_paddle</sprite>
@@ -103,6 +105,8 @@
     <object>objects\wall</object>
     <object>objects\obj_blksquare</object>
     <object>objects\obj_distort</object>
+    <object>objects\obj_close</object>
+    <object>objects\obj_caredFor</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\pong</room>
