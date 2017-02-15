@@ -23,6 +23,9 @@
     <sound>sound\sound_bgmusic</sound>
     <sound>sound\sound_Jesuswithyou</sound>
     <sound>sound\sound_YouAreLovedHere</sound>
+    <sound>sound\sound_PacmanEat</sound>
+    <sound>sound\sound_pacoptone</sound>
+    <sound>sound\sound_pacopttwo</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_paddle</sprite>
