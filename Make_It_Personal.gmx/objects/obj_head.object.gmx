@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.spd=5;
+            <string>global.spd=3;
 canturn=false;
 image_speed=0;
 alarm[0]=global.spd;

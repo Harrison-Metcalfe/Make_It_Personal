@@ -259,6 +259,7 @@
     <instance objName="obj_blksquare" x="16" y="272" name="inst_19BF85FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blksquare" x="80" y="272" name="inst_8606BD16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_close" x="0" y="-16" name="inst_B01E095D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_jesuswithyou" x="624" y="464" name="inst_BC5E1084" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

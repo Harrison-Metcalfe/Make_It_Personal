@@ -17,6 +17,12 @@
     <sound>sound\sound_explosion</sound>
     <sound>sound\sound_bulletFIX</sound>
     <sound>sound\sound_YouAreCaredFor</sound>
+    <sound>sound\sound_GodLovesYou</sound>
+    <sound>sound\sound_Pocketmaster___07___Ride</sound>
+    <sound>sound\sound_RoccoW___05___Bleeps_Galore</sound>
+    <sound>sound\sound_bgmusic</sound>
+    <sound>sound\sound_Jesuswithyou</sound>
+    <sound>sound\sound_YouAreLovedHere</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_paddle</sprite>
@@ -50,6 +56,7 @@
     <sprite>sprites\wall4</sprite>
     <sprite>sprites\wallStraight</sprite>
     <sprite>sprites\spr_blksquare</sprite>
+    <sprite>sprites\spr_courtActual</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bk_black</background>
@@ -107,6 +114,10 @@
     <object>objects\obj_distort</object>
     <object>objects\obj_close</object>
     <object>objects\obj_caredFor</object>
+    <object>objects\obj_godlovesyou</object>
+    <object>objects\obj_jesuswithyou</object>
+    <object>objects\obj_youarelovedhere</object>
+    <object>objects\obj_playBGM</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\pong</room>
