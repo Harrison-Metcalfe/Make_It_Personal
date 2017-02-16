@@ -251,13 +251,13 @@ obj_tail.image_blend = make_colour_hsv(random(255), random(255), random(255));
     <event eventtype="4" ename="obj_tail">
       <action>
         <libid>1</libid>
-        <id>223</id>
+        <id>222</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_current_room</functionname>
+        <functionname>action_next_room</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>

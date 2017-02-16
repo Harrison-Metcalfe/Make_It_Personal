@@ -121,8 +121,12 @@
     <object>objects\obj_jesuswithyou</object>
     <object>objects\obj_youarelovedhere</object>
     <object>objects\obj_playBGM</object>
+    <object>objects\obj_startgame</object>
+    <object>objects\obj_titlecolour</object>
+    <object>objects\obj_titlebgm</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_title</room>
     <room>rooms\pong</room>
     <room>rooms\room_msg3</room>
     <room>rooms\snake</room>
