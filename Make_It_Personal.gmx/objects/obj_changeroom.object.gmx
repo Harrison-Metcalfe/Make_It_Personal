@@ -51,9 +51,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//alarm[7] = 1500;
+            <string>alarm[7] = 1500;
 //alarm[7] = 120;
-alarm[7] = 300;
+//alarm[7] = 300;
 </string>
           </argument>
         </arguments>
